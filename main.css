@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: grid;
+    
+    grid-template-areas:"head head" "nav nav " " art aside" "footer footer ";
+}
+
+#main > header {
+    grid-area: head;
+    background: rgb(92, 92, 92);
+    grid
+
+}
+
+#main > nav
+{
+    grid-area: nav;
+    background: rgb(255, 98, 98);
+}
+#main > article
+{
+    grid-area: art;
+    background: rgb(193, 255, 177);
+}
+#main > aside
+{
+    grid-area: aside;
+    background: rgb(132, 55, 255);
+}
+#main > footer
+{
+    grid-area: footer;
+    background: rgb(0, 0, 0);
+}
