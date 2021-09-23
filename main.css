@@ -3,36 +3,42 @@
     padding: 0;
 }
 
-#main {
+#menu {
     display: grid;
-    
     grid-template-areas:"head head" "nav nav " " art aside" "footer footer ";
+    grid-template-rows: none;
+    
 }
 
-#main > header {
+#menu > header {
     grid-area: head;
     background: rgb(92, 92, 92);
-    grid
-
+    height: 100px;
+   
+    
+    
 }
 
-#main > nav
+#menu > nav
 {
     grid-area: nav;
-    background: rgb(255, 98, 98);
+    background: rgb(255, 0, 0);
+    grid-template-rows: 60px;
+    
 }
-#main > article
+#menu > article
 {
     grid-area: art;
     background: rgb(193, 255, 177);
 }
-#main > aside
+#menu > aside
 {
     grid-area: aside;
     background: rgb(132, 55, 255);
 }
-#main > footer
+#menu > footer
 {
     grid-area: footer;
-    background: rgb(0, 0, 0);
+    background: rgb(197, 159, 159);
+    height: 100px;
 }
